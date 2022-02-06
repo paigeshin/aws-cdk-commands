@@ -18,4 +18,6 @@ cdk bootstrap
 cdk synth
 cdk deploy
 
+cdk deploy {your_stack_name}
+
 ```
