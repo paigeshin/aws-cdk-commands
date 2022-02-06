@@ -33,3 +33,11 @@ cdk destroy {your_stack_name}
 cdk doctor
 
 ```
+
+# NPM 
+
+```bash
+
+npm i @aws-cdk/aws-s3
+
+```
