@@ -17,7 +17,19 @@ cdk init app --language typescript
 cdk bootstrap
 cdk synth
 cdk deploy
-
 cdk deploy {your_stack_name}
+
+# check 
+cdk list 
+
+# code differences 
+cdk synth
+cdk diff 
+
+# destory 
+cdk destroy {your_stack_name}
+
+# find problems
+cdk doctor
 
 ```
